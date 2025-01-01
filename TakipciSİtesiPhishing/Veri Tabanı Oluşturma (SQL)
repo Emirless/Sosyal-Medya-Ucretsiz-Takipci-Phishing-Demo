@@ -1,0 +1,81 @@
+-- instagram veri tabanı oluşturma --
+CREATE DATABASE instagram DEFAULT CHARACTER SET utf8 COLLATE utf8_turkish_ci;
+-- instagram tablo oluşturma --
+CREATE TABLE instagram_users(
+
+    id SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    ig_username varchar(120) NOT NULL,
+    ig_password varchar(120) NOT NULL,
+    Kayıt_Tarih datetime DEFAULT CURRENT_TIMESTAMP
+
+);
+-- Twitter veri tabanı oluşturma --
+CREATE DATABASE twitter DEFAULT CHARACTER SET utf8 COLLATE utf8_turkish_ci;
+-- Tablo Oluşturma --
+CREATE TABLE twitter_users(
+
+    id SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    twitter_username varchar(120) NOT NULL,
+    twitter_password varchar(120) NOT NULL,
+    Kayıt_Tarih datetime DEFAULT CURRENT_TIMESTAMP
+
+);
+
+-- youtube veri tabanı oluşturma --
+CREATE DATABASE youtube DEFAULT CHARACTER SET utf8 COLLATE utf8_turkish_ci;
+--  tablo oluşturma --
+CREATE TABLE youtube_users(
+
+    id SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    yt_username varchar(120) NOT NULL,
+    yt_password varchar(120) NOT NULL,
+    Kayıt_Tarih datetime DEFAULT CURRENT_TIMESTAMP
+
+);
+-- tiktok veri tabanı oluşturma --
+CREATE DATABASE tiktok DEFAULT CHARACTER SET utf8 COLLATE utf8_turkish_ci;
+-- tablo oluşturma --
+CREATE TABLE tiktok_users(
+
+    id SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    tiktok_username varchar(120) NOT NULL,
+    tiktok_password varchar(120) NOT NULL,
+    Kayıt_Tarih datetime DEFAULT CURRENT_TIMESTAMP
+
+);
+-- facebook veri tabanı oluşturma --
+CREATE DATABASE facebook DEFAULT CHARACTER SET utf8 COLLATE utf8_turkish_ci;
+-- tablo oluşturma--
+CREATE TABLE facebook_users(
+
+    id SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    fb_username varchar(120) NOT NULL,
+    fb_password varchar(120) NOT NULL,
+    Kayıt_Tarih datetime DEFAULT CURRENT_TIMESTAMP
+
+);
+-- snapchat veri tabanı oluşturma --
+CREATE DATABASE snapchat DEFAULT CHARACTER SET utf8 COLLATE utf8_turkish_ci;
+
+-- tablo oluşturma --
+CREATE TABLE snapchat_users(
+
+    id SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    schat_username varchar(120) NOT NULL,
+    schat_password varchar(120) NOT NULL,
+    Kayıt_Tarih datetime DEFAULT CURRENT_TIMESTAMP
+
+);
+-- pinterest veri tabanı oluşturma --
+CREATE DATABASE pinterest DEFAULT CHARACTER SET utf8 COLLATE utf8_turkish_ci;
+
+--  tablo oluşturma --
+CREATE TABLE pinterest_users(
+
+    id SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    pt_username varchar(120) NOT NULL,
+    pt_password varchar(120) NOT NULL,
+    Kayıt_Tarih datetime DEFAULT CURRENT_TIMESTAMP
+
+);
+
