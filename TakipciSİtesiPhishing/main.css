@@ -1,0 +1,204 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+header {
+    background-color: #4c6ef5;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 0.5rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: linear-gradient(to right, #4c6ef5, #3b5bdb);
+    text-align: center;
+    padding: 3rem 1rem;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 2rem;
+    background-color: #f8f9fa;
+}
+
+.service {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    width: 300px;
+}
+
+.service i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+/* Paket renkleri */
+.fab.fa-instagram {
+    color: #E4405F;
+}
+
+.fab.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fab.fa-youtube {
+    color: #FF0000;
+}
+
+.fab.fa-tiktok {
+    color: #000000;
+}
+
+.fab.fa-facebook {
+    color: #1877F2;
+}
+
+.fab.fa-linkedin {
+    color: #0077B5;
+}
+
+.fab.fa-snapchat {
+    color: #FFFC00;
+}
+
+.fab.fa-pinterest {
+    color: #E60023;
+}
+
+.packages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.package {
+    background-color: #f1f3f5;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.package h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.package p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.package button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #4c6ef5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.package button:hover {
+    background-color: #3b5bdb;
+}
+
+.form-section {
+    padding: 2rem;
+    background-color: #f1f3f5;
+}
+
+.form-section form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-section input, .form-section button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-section button {
+    background-color: #4c6ef5;
+    color: white;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: #3b5bdb;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+header h1, nav a, section h1, section h2, .service h3, .package h3 {
+    font-weight: 700;
+}
+p, input, button {
+    font-weight: 400;
+}
+
